@@ -11,6 +11,8 @@
 #include "C3.h"
 #include "C4.h"
 #include "C5.h"
+#include "C6.h"
+#include "C9.h"
 
 int main(int argc, const char * argv[])
 {
@@ -19,8 +21,8 @@ int main(int argc, const char * argv[])
     //Run_C3();
     //Run_C4();
     //Run_C5();
-    Run_C6();
-    
+    //Run_C6();
+    Run_C9();
     return 0;
 }
 

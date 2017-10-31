@@ -13,6 +13,7 @@
 		2456D6221F9F22350081F1C5 /* C6.c in Sources */ = {isa = PBXBuildFile; fileRef = 2456D6201F9F22350081F1C5 /* C6.c */; };
 		2480AF1A1F89C6F900984A3C /* C5.c in Sources */ = {isa = PBXBuildFile; fileRef = 2480AF181F89C6F900984A3C /* C5.c */; };
 		24AC2F461F823E52001BAFA6 /* C3.c in Sources */ = {isa = PBXBuildFile; fileRef = 24AC2F441F823E52001BAFA6 /* C3.c */; };
+		24B66A641FA89F88006AE1EF /* C9.c in Sources */ = {isa = PBXBuildFile; fileRef = 24B66A621FA89F88006AE1EF /* C9.c */; };
 		24ED79811F88B30C00BECF1C /* C4.c in Sources */ = {isa = PBXBuildFile; fileRef = 24ED797F1F88B30C00BECF1C /* C4.c */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,8 @@
 		2480AF191F89C6F900984A3C /* C5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = C5.h; sourceTree = "<group>"; };
 		24AC2F441F823E52001BAFA6 /* C3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = C3.c; sourceTree = "<group>"; };
 		24AC2F451F823E52001BAFA6 /* C3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = C3.h; sourceTree = "<group>"; };
+		24B66A621FA89F88006AE1EF /* C9.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = C9.c; sourceTree = "<group>"; };
+		24B66A631FA89F88006AE1EF /* C9.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = C9.h; sourceTree = "<group>"; };
 		24ED797F1F88B30C00BECF1C /* C4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = C4.c; sourceTree = "<group>"; };
 		24ED79801F88B30C00BECF1C /* C4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = C4.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,6 +91,8 @@
 				2480AF191F89C6F900984A3C /* C5.h */,
 				2456D6201F9F22350081F1C5 /* C6.c */,
 				2456D6211F9F22350081F1C5 /* C6.h */,
+				24B66A621FA89F88006AE1EF /* C9.c */,
+				24B66A631FA89F88006AE1EF /* C9.h */,
 			);
 			path = "C Study";
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24ED79811F88B30C00BECF1C /* C4.c in Sources */,
+				24B66A641FA89F88006AE1EF /* C9.c in Sources */,
 				243DAB401F7E3BC300C749FB /* C2.c in Sources */,
 				243DAB431F7E3BFD00C749FB /* C1.c in Sources */,
 				2456D6221F9F22350081F1C5 /* C6.c in Sources */,
