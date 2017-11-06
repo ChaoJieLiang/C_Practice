@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24337E021FB04C1C00C3A5B3 /* C10.c in Sources */ = {isa = PBXBuildFile; fileRef = 24337E001FB04C1C00C3A5B3 /* C10.c */; };
 		243DAB351F7DE06A00C749FB /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 243DAB341F7DE06A00C749FB /* main.c */; };
 		243DAB401F7E3BC300C749FB /* C2.c in Sources */ = {isa = PBXBuildFile; fileRef = 243DAB3E1F7E3BC300C749FB /* C2.c */; };
 		243DAB431F7E3BFD00C749FB /* C1.c in Sources */ = {isa = PBXBuildFile; fileRef = 243DAB421F7E3BFD00C749FB /* C1.c */; };
@@ -30,6 +31,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		24337E001FB04C1C00C3A5B3 /* C10.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = C10.c; sourceTree = "<group>"; };
+		24337E011FB04C1C00C3A5B3 /* C10.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = C10.h; sourceTree = "<group>"; };
 		243DAB311F7DE06A00C749FB /* C Study */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C Study"; sourceTree = BUILT_PRODUCTS_DIR; };
 		243DAB341F7DE06A00C749FB /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		243DAB3E1F7E3BC300C749FB /* C2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = C2.c; sourceTree = "<group>"; };
@@ -93,6 +96,8 @@
 				2456D6211F9F22350081F1C5 /* C6.h */,
 				24B66A621FA89F88006AE1EF /* C9.c */,
 				24B66A631FA89F88006AE1EF /* C9.h */,
+				24337E001FB04C1C00C3A5B3 /* C10.c */,
+				24337E011FB04C1C00C3A5B3 /* C10.h */,
 			);
 			path = "C Study";
 			sourceTree = "<group>";
@@ -157,6 +162,7 @@
 				24ED79811F88B30C00BECF1C /* C4.c in Sources */,
 				24B66A641FA89F88006AE1EF /* C9.c in Sources */,
 				243DAB401F7E3BC300C749FB /* C2.c in Sources */,
+				24337E021FB04C1C00C3A5B3 /* C10.c in Sources */,
 				243DAB431F7E3BFD00C749FB /* C1.c in Sources */,
 				2456D6221F9F22350081F1C5 /* C6.c in Sources */,
 				2480AF1A1F89C6F900984A3C /* C5.c in Sources */,
