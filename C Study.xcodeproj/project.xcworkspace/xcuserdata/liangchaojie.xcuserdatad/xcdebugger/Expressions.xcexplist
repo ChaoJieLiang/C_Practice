@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "Copy_VLA:C10.c">
+      </ContextState>
+      <ContextState
+         contextName = "C10_7:C10.c">
+      </ContextState>
+      <ContextState
+         contextName = "C10_8:C10.c">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

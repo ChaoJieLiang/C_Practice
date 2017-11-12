@@ -10,12 +10,117 @@
 
 void Run_C10(void)
 {
+    //int A[4] = {2,4,5,8};
+    //int B[4] = {1,0,4,6};
+    //int C[4];
     //C10_1();
     //C10_2();
     //C10_3();
     //C10_4();
     //C10_5();
-    C10_6();
+    //C10_6();
+    //C10_7();
+    //C10_8();
+    //C10_9();
+    //C10_10(A, B, C, 4);
+    C10_11();
+}
+
+void C10_11(void)
+{
+    double initial_Array[3][5] = {{1.1,1.2,1.3,1.4,1.5},{2.1,2.2,2.3,2.4,2.5},{3.1,3.2,3.3,3.4,3.5}};
+    
+    int i = 0;
+    
+    for (i = 0; i < 3; i++)
+    {
+        C10_11_Print(initial_Array, i);
+    }
+    for (i = 0; i < 3; i++)
+    {
+        C10_11_Double(initial_Array, i);
+    }
+}
+
+void C10_11_Print(double array[3][5], int row)
+{
+    int j = 0;
+    
+
+    for (j = 0; j < 5; j++)
+    {
+        printf("%.1lf ",array[row][j]);
+    }
+    printf("\n");
+}
+
+void C10_11_Double(double array[3][5], int row)
+{
+    double temp_array[3][5];
+    int j = 0;
+    
+    for (j = 0; j < 5; j++)
+    {
+        temp_array[row][j] = array[row][j] * array[row][j];
+    }
+
+    C10_11_Print(temp_array, row);
+}
+
+void C10_10(int *A, int *B, int *C, int number)
+{
+    int i = 0;
+    
+    for (i=0; i<number; i++)
+    {
+        C[i] = A[i] + B[i];
+    }
+}
+
+void C10_9(void)
+{
+    double initial_Array[3][5] = {{1.1,1.2,1.3,1.4,1.5},{2.1,2.2,2.3,2.4,2.5},{3.1,3.2,3.3,3.4,3.5}};
+    
+    Copy_VLA(3, 5, initial_Array);
+}
+
+void Copy_VLA(int row, int col, double array[row][col])
+{
+    double output_Array[row][col];
+    int i = 0, j = 0;
+    
+    for (i = 0; i < row; i++)
+    {
+        for (j = 0; j < col; j++)
+        {
+            output_Array[i][j] = array[i][j];
+        }        
+    }
+}
+
+void C10_8(void)
+{
+    double input[7] = {1,2,3,4,5,6,7};
+    double output[3];
+    double temp[3];
+    
+    temp[0] = input[2];
+    temp[1] = input[3];
+    temp[2] = input[4];
+
+    Copy_Arr(output, temp, 4);
+}
+
+void C10_7(void)
+{
+    double input[5][5] = {{1.1,1.2,1.3,1.4,1.5},{2.1,2.2,2.3,2.4,2.5},{3.1,3.2,3.3,3.4,3.5},{4.1,4.2,4.3,4.4,4.5},{5.1,5.2,5.3,5.4,5.5}};
+    double output[5][5];
+    
+    int i = 0;
+    for (i = 0; i < 5; i++)
+    {
+        Copy_Arr(&output[i], &input[i], 6);
+    }
 }
 
 void C10_6(void)
